@@ -1,0 +1,19 @@
+# Private database, audio uploads, and server keys
+data/
+
+# Private admin setup instructions
+ADMIN_SETUP.txt
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+
+# Logs and preview screenshots
+*.log
+preview-*.png
